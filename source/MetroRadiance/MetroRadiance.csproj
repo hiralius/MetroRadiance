@@ -37,10 +37,11 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release RETRO|AnyCPU' ">
     <OutputPath>bin\Release RETRO\</OutputPath>
     <DefineConstants>TRACE;RETRO</DefineConstants>
-    <DocumentationFile>bin\Release\MetroRadiance.xml</DocumentationFile>
+    <DocumentationFile>
+    </DocumentationFile>
     <Optimize>true</Optimize>
     <NoWarn>1591</NoWarn>
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>

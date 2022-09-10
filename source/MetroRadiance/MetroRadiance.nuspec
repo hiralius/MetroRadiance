@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>$id$</id>
@@ -17,8 +17,7 @@
       <dependency id="MetroRadiance.Chrome" version="2.2.0" />
     </dependencies>
     <frameworkAssemblies>
-      <frameworkAssembly assemblyName="System.Windows.Interactivity" targetFramework="net45" />
-      <frameworkAssembly assemblyName="Microsoft.Expression.Interactions" targetFramework="net45" />
+      <frameworkAssembly assemblyName="Microsoft.Xaml.Behaviors.Wpf" targetFramework="net46" />
     </frameworkAssemblies>
   </metadata>
 </package>
